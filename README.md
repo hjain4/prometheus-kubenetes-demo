@@ -1,4 +1,4 @@
-### Deploy MS in EKS
+### Deploy MS in EKS -- Himanshu Jain
 eksctl create cluster
 kubectl create namespace online-shop
 kubectly apply -f ~/Demo-projects/Bootcamp/monitoring/config-microservices.yaml -n online-shop
@@ -27,7 +27,7 @@ kubectl port-forward svc/monitoring-kube-prometheus-prometheus 9090:9090 -n moni
 ### Access Grafana
 kubectl port-forward svc/monitoring-grafana 8080:80 -n monitoring &
 user: admin
-pwd: prom-operator
+pwd: Node@123
 
 ### Trigger CPU spike with many requests
 
